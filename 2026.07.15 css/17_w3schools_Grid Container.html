@@ -1,0 +1,44 @@
+<!--
+  [W3Schools] CSS Grid Container Code Challenge
+  https://www.w3schools.com/css/css_challenges_grid_container.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. Set the .grid grid-template-columns to 1fr 1fr 1fr (three equal columns)
+  2. Set grid-template-rows to 100px 100px (two rows of 100px)
+  3. Set justify-content to center
+-->
+  
+
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .grid {
+        display: grid;
+        gap: 10px;
+        /* grid-template-columns, grid-template-rows, justify-content */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        justify-content: center;
+      }
+
+      .grid > div {
+        background-color: #04aa6d;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+    </div>
+  </body>
+</html>

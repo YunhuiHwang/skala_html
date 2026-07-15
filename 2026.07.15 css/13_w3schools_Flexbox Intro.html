@@ -1,0 +1,40 @@
+<!--
+  [W3Schools] CSS Flexbox Intro Code Challenge
+  https://www.w3schools.com/css/css_challenges_flexbox_intro.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. Set the .container display to flex
+  2. Set the .container flex-direction to row
+  3. Set the .container gap to 10px
+-->
+  
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .container {
+        background-color: #f1f1f1;
+        padding: 10px;
+        /* display, flex-direction, gap */
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .container > div {
+        background-color: #04aa6d;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>

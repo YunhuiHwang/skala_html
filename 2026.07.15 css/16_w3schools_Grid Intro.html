@@ -1,0 +1,43 @@
+<!--
+  [W3Schools] CSS Grid Intro Code Challenge
+  https://www.w3schools.com/css/css_challenges_grid_intro.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. Set the .grid-container display to grid
+  2. Define 3 equal columns using grid-template-columns: auto auto auto
+  3. Set the gap to 10px
+-->
+  
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  background-color: #f1f1f1;
+  padding: 10px;
+  /* display, grid-template-columns, gap */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.grid-container > div {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+</body>
+</html>
