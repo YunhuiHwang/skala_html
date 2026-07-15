@@ -1,0 +1,49 @@
+<!--
+  [W3Schools] CSS 3D Transforms Code Challenge
+  https://www.w3schools.com/css/css_challenges_css3_3dtransforms.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. Rotate #rotX around the X-axis by 45deg using transform: rotateX(45deg)
+  2. Rotate #rotY around the Y-axis by 45deg using transform: rotateY(45deg)
+  3. Rotate #rotZ around the Z-axis by 45deg using transform: rotateZ(45deg)
+-->
+  
+
+<!doctype html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: #04aa6d;
+        color: white;
+        margin: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      #rotX {
+        /* rotateX */
+        transform: rotateX(45deg);
+      }
+
+      #rotY {
+        /* rotateY */
+        transform: rotateY(45deg);
+      }
+
+      #rotZ {
+        /* rotateZ */
+        transform: rotateZ(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rotX">X-axis</div>
+    <div id="rotY">Y-axis</div>
+    <div id="rotZ">Z-axis</div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!--
+  [W3Schools] CSS VariablesCode Challenge
+  https://www.w3schools.com/css/css_challenges_css3_variables.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. In :root, define --primary as #04AA6D and --text as white
+  2. On the .btn, use var(--primary) for background-color and var(--text) for color
+  3. On the .header, use var(--primary) for background-color
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <style>
+      :root {
+        /* define --primary and --text */
+        --primary: #04aa6d;
+        --text: white;
+      }
+
+      .header {
+        padding: 15px;
+        /* use var(--primary) */
+        background-color: var(--primary);
+      }
+
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        /* use var(--primary) and var(--text) */
+        background-color: var(--primary);
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">My Website</div>
+    <p><button class="btn">Click Me</button></p>
+  </body>
+</html>

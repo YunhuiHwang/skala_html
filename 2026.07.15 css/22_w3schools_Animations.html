@@ -1,0 +1,44 @@
+<!--
+  [W3Schools] CSS Animations Code Challenge
+  https://www.w3schools.com/css/css_challenges_css3_animations.asp
+  
+  Instructions:
+  Inside the editor, complete the following steps:
+  1. Create a @keyframes rule named slide
+  2. At 0%, set background-color to red and left to 0px
+  3. At 100%, set background-color to blue and left to 200px
+  4. Apply the animation to the div using the shorthand: slide 2s infinite
+-->
+  
+
+<!doctype html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        position: relative;
+        /* animation shorthand */
+        animation: slide 2s infinite;
+      }
+      /* @keyframes slide { ... } */
+      @keyframes slide {
+        0% {
+          background-color: red;
+          left: 0px;
+        }
+        100% {
+          background-color: blue;
+          left: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>Slide!</div>
+  </body>
+</html>
